@@ -1,0 +1,97 @@
+body{
+	background-image: url(img/fondo.png);
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#contenedor{
+	background-color: #088fe9;
+    width: 75%;
+	margin: 30px auto;
+	padding: 20px;
+	max-width: 960px;
+}
+
+header h1{
+	background-color: #06283D;
+	padding: 13px;
+	text-align: center;
+	color: white;
+	font-size: 2.7em;
+}
+
+p{
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline-block;	
+}
+nav a {
+	font-size: 1.4em;
+	line-height: 2.2em;
+	padding: 0.4em 1em;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:link {
+	background-color: #06283D;
+	color: #FFF;
+}
+nav a:visited {
+	background-color: #06283D;
+	color: #FFF;
+}
+nav a:hover {
+	background-color: #31acff;
+	color: #FFF;
+}
+nav a:active {
+	background-color: #000413;
+	color: #FFF;
+}
+footer{
+	background-color: #06283D;
+	color: #FFF;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+}
+
+footer a {
+	font-style: italic;
+}
+
+.foot{
+    padding: 20px;
+    margin-top: 10px;
+}
+footer a:link {
+    color: white;
+}
+
+footer a:visited{
+	color: #000413;
+}
+
+footer a:hover{
+	color: #000413;
+}
+
+footer a:active {
+    color: #1338bd;
+}
+
